@@ -1,0 +1,38 @@
+# Ignore .env file (contains sensitive information)
+.env
+
+# Ignore Hardhat build artifacts
+artifacts/
+cache/
+typechain/
+
+# Ignore node_modules (dependencies)
+node_modules/
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore npm debug logs
+npm-debug.log*
+
+# Ignore local Hardhat network data
+hardhat-chain.log
+hardhat-node/
+
+# Ignore coverage reports (if using Solidity coverage)
+coverage/
+coverage.json
+
+# Ignore generated documentation (if any)
+docs/
+
+# Ignore local development files
+.local-*
+
+# Ignore test reports (if using test reporters)
+test-results/
