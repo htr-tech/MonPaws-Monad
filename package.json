@@ -4,7 +4,8 @@
     "description": "An ERC-20 Token Demo for Monad Testnet",
     "scripts": {
         "compile": "npx hardhat compile",
-        "mint": "npx hardhat run scripts/mint.js --network monadtestnet"
+        "mint": "npx hardhat run scripts/mint.js --network monadtestnet",
+        "burn": "npx hardhat run scripts/burn.js"
     },
     "devDependencies": {
         "@nomicfoundation/hardhat-toolbox": "^5.0.0",
