@@ -5,7 +5,8 @@
     "scripts": {
         "compile": "npx hardhat compile",
         "mint": "npx hardhat run scripts/mint.js --network monadtestnet",
-        "burn": "npx hardhat run scripts/burn.js"
+        "burn": "npx hardhat run scripts/burn.js",
+        "drop": "npx hardhat run scripts/batch.js"
     },
     "devDependencies": {
         "@nomicfoundation/hardhat-toolbox": "^5.0.0",
