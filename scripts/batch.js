@@ -1,3 +1,6 @@
+// This is an ERC-20 token demo script. It transfers tokens in a batch to many users.
+// The amounts are specified in the airdrop.txt file in the format: 0x..., amount
+
 require("dotenv").config();
 const fs = require("fs");
 const hre = require("hardhat");

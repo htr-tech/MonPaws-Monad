@@ -1,3 +1,14 @@
+// This is an ERC-20 token deployment script. It deploys a new token to the Monad blockchain
+// and allows the user to specify the token's name, symbol, and total supply through prompts.
+// The contract address is then saved to the .env file and verified on the Monad testnet.
+
+// Dependencies:
+// - `dotenv`: Loads environment variables from a .env file.
+// - `fs`: File system module to read and write files.
+// - `hardhat`: Ethereum development environment to deploy and verify contracts.
+// - `chalk`: A library for colored terminal output to improve UX.
+// - `inquirer`: A library for creating interactive prompts in the terminal.
+
 require("dotenv").config();
 const fs = require("fs");
 const hre = require("hardhat");

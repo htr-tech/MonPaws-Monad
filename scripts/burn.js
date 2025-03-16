@@ -1,3 +1,6 @@
+// This is an ERC-20 token demo script. It allows the user to burn a specific amount of tokens from their balance.
+// The token's contract address and other configuration values are stored in the .env file.
+
 require("dotenv").config();
 const chalk = require("chalk");
 const { ethers } = require("ethers");
