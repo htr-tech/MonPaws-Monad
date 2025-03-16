@@ -1,0 +1,17 @@
+{
+    "name": "monpaws",
+    "version": "1.0.0",
+    "description": "An ERC-20 Token Demo for Monad Testnet",
+    "scripts": {
+        "compile": "npx hardhat compile",
+        "mint": "npx hardhat run scripts/mint.js --network monadtestnet"
+    },
+    "devDependencies": {
+        "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+        "@openzeppelin/contracts": "^5.2.0",
+        "dotenv": "^16.0.3",
+        "ethers": "^6.13.5",
+        "hardhat": "^2.17.0",
+        "inquirer": "^12.5.0"
+    }
+}
